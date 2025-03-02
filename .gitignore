@@ -148,3 +148,7 @@ images
 
 # ast template
 ast_index_file.py
+
+# local
+checkpoints/
+playground/

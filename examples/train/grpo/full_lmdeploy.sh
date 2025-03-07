@@ -5,6 +5,7 @@
 # important args: --num_infer_workers 2 --num_iterations 2 --use_lmdeploy true --async_generate true
 # if forward/backward error: pip install deepspeed==0.14.5
 # and change deepspeed zero3.json stage3_prefetch_bucket_size=0
+
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 NPROC_PER_NODE=6 \
 swift rlhf \
